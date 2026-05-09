@@ -19,7 +19,7 @@ model = Pipeline(
 
 model.fit(x, y)
 
-# 保存模型
+#保存模型
 joblib.dump(model, "model.pkl")
 
 # 模型到文件
